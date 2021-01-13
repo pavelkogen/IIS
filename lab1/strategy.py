@@ -11,7 +11,7 @@ class Order:
         return self.price - discount
 
     def __repr__(self):
-        fmt = "<Price: {}, price after discount: {}>"
+        fmt = "<Стоимость: {}, стоимость со скидкой: {}>"
         return fmt.format(self.price, self.price_after_discount())
 
 
